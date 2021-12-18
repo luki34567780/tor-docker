@@ -1,4 +1,6 @@
 # tor-docker
+__Modified version of https://blog.jessfraz.com/post/running-a-tor-relay-with-docker/#running-a-middle-relay__
+
 A TOR middle relay packed into a docker container.
 
 # build instructions:
