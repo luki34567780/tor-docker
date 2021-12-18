@@ -1,0 +1,22 @@
+ORPort 9001
+
+# Mirror directory information
+# please do this if you have enough bandwith
+DirPort 9030
+
+# A handle for your relay, so people don't have to refer to it by key.
+Nickname ididntedittheconfig
+ContactInfo ididntedittheconfig
+
+# exit policy set to deny all
+ExitPolicy reject *:*
+
+# max throughput
+# You should change this
+RelayBandwidthRate 1000 KBytes
+
+# max throughput burst
+# You should also change this
+RelayBandwidthBurst 2000 KBytes
+
+
