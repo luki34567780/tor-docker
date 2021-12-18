@@ -11,6 +11,8 @@ ContactInfo ididntedittheconfig
 # exit policy set to deny all
 ExitPolicy reject *:*
 
+# we are a not a Exit relay
+ExitRelay 0
 # max throughput
 # You should change this
 RelayBandwidthRate 1000 KBytes
