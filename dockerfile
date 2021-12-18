@@ -1,10 +1,9 @@
 #based on https://blog.jessfraz.com/post/running-a-tor-relay-with-docker/#running-a-middle-relay
 FROM alpine:latest
 
-# Note: Tor is only in testing repo
 RUN apk update && apk add \
     tor \
-    --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ \
+    --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/releases/ \
     && rm -rf /var/cache/apk/*
 
 # default port to used for incoming Tor connections
