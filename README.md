@@ -5,11 +5,11 @@ A TOR middle relay packed into a docker container.
 
 # build instructions:
 
-1. Clone the Repo:
+1. Clone the repo:
 ```git clone https://github.com/luki34567780/tor-docker.git ```
-2. Go into the Dir:
+2. Go into dir:
 ```cd tor-docker```
-3. Edit the Config in the text editor of your choice __remember to change Nickname and Contact information__ :```nano torrc``` (linux example)
+3. Edit a config in the text editor of your choice __remember to change Nickname and Contact information__ :```nano torrc``` (linux example)
 
-3. Build Docker Image:
+3. build Docker image:
 ```docker build -t tor_image .```
