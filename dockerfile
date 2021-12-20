@@ -1,5 +1,5 @@
 #based on https://blog.jessfraz.com/post/running-a-tor-relay-with-docker/#running-a-middle-relay
-FROM alpine:3:10
+FROM alpine:3.10
 
 RUN apk update && apk add \
     tor \
