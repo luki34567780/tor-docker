@@ -16,3 +16,4 @@ docker run \
     --publish 9030:9030 \
     -v /docker/tor_relay:/etc/tor/ \
     tor_image
+    
