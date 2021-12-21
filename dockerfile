@@ -14,7 +14,6 @@ EXPOSE 9001
 # you can change this by changing DirPort in torrc
 EXPOSE 9030
 
-
 # copy in our torrc file
 COPY torrc /etc/tor/torrc
 
