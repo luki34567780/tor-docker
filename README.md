@@ -11,5 +11,5 @@ A TOR middle and guard relay packed into a docker container.
 ```cd tor-docker```
 3. Edit a config in the text editor of your choice __remember to change Nickname and Contact information__ :```nano torrc``` (linux example)
 
-3. build Docker image:
-```docker build -t tor_image .```
+3. build image and start Container:
+```bash build_and_create_container.sh```
