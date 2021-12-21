@@ -5,7 +5,7 @@ docker build \
 # create dir
 mkdir /docker/tor_relay/
 
-#copy torrc
+# copy torrc
 cp torrc /docker/tor_relay/
 
 docker run \
