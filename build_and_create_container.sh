@@ -10,6 +10,7 @@ cp torrc /docker/tor_relay/
 
 docker run \
     -d \
+    --restart unless-stopped \
     --name "tor_relay" \
     --publish 9001:9001 \
     --publish 9030:9030 \
