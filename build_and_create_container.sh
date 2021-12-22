@@ -8,6 +8,7 @@ mkdir /docker/tor_relay/
 # copy torrc
 cp torrc /docker/tor_relay/
 
+#/usr/share/tor
 docker run \
     -d \
     --restart unless-stopped \
@@ -15,5 +16,6 @@ docker run \
     --publish 9001:9001 \
     --publish 9030:9030 \
     -v /docker/tor_relay:/etc/tor/ \
+    -v /docker/tor_relay/other:/usr/share/tor/ \
     tor_image
-    
+SomeRelayOnEarth

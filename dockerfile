@@ -22,4 +22,4 @@ RUN chown -R tor /etc/tor
 
 USER tor
 
-CMD ["tor", "-f","/etc/tor/torrc"]
+CMD [""tor", "-f","/etc/tor/torrc""]
