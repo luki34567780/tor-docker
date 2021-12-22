@@ -18,4 +18,3 @@ docker run \
     -v /docker/tor_relay:/etc/tor/ \
     -v /docker/tor_relay/other:/usr/share/tor/ \
     tor_image
-SomeRelayOnEarth
